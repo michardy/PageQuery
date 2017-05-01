@@ -1,0 +1,10 @@
+[package]
+name = "querypage"
+version = "0.1.0"
+authors = ["Michael Hardy <mhardy17@bayschoolsf.org>"]
+
+[dependencies]
+scraper = "0.4.0"
+hyper = "0.10"
+cgi = { git = "https://github.com/michardy/RustCGI" }
+hyper-native-tls = "0.2.2"
